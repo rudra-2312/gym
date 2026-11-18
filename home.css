@@ -1,0 +1,54 @@
+.hero{
+    margin-top: 5px;
+    background-image: url('/images/fitness-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#hero-text{
+    color: #ffffff;
+    text-align: left;
+    font-size: 24px;
+    margin: 10px 200px 3px 10px;
+    opacity: 0.7;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+#box1, #box2, #box3, #box4{
+    background-color: #b8b9ba;
+    display: inline-block;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#box3, #box4{
+    margin-top: 15px;
+}
+h2{
+    color: #0f0f0f;
+    align-items: center;
+    text-align: center;
+}
+.testimonial-section{
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    overflow-x: auto;
+}
+.testimonial{
+    flex: 0 0 280px;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}

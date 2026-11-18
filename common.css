@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    background-color: #f0f0f0;
+    margin: 0 0 10px 0;
+    text-align: center;
+    height: 60px;
+}
+#Name{
+    color: #000000;
+    font-size: 30px;
+    margin: 0;
+}
+#tagline{
+    color: #000000;
+    font-size: 15px;
+    margin: 0;
+}
+.navbar{
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+#home, #about, #services, #contact{
+    color: #b8b9ba;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.nav-link{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 10px;
+    
+}
+#loginButton{
+    background-color: #4CAF50;
+    color: white;
+    height: 75%;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 160px;
+    margin-top: 1.2px;
+}
+
+footer{
+    background-color: #0f0f0f;
+    color: #b8b9ba;
+    text-align: center;
+    padding: 1px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
